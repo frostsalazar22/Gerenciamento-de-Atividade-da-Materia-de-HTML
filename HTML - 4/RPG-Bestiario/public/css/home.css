@@ -1,0 +1,132 @@
+body {
+    background: url('/assets/img/bg-dark-rpg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+.utilitarios-section {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.utilitarios-title {
+    font-size: 36px;
+    font-weight: bold;
+    border-bottom: 2px solid #00bfff;
+    display: inline-block;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+.app-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.app-card {
+    width: 210px;
+    text-align: center;
+}
+
+.app-card img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.app-card img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #00bfff;
+}
+
+.app-card span {
+    display: block;
+    margin-top: 8px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.divider {
+    border-top: 2px solid #00bfff;
+    margin: 60px auto;
+    width: 60%;
+}
+
+.cards-section {
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.cards-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #00bfff;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.item-card {
+    background: radial-gradient(circle at center, #1e1e2f 0%, #0d0d15 100%);
+    border: 4px solid #d6d0c7;
+    border-radius: 10px;
+    width: 210px;
+    height: 300px;
+    color: #fff;
+    box-shadow: 0 0 15px rgba(0,0,0,0.8);
+    font-family: 'Georgia', serif;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.item-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 15px #00bfff;
+}
+
+.item-card-title {
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 10px;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.item-card-img {
+    max-height: 130px;
+    width: 90%;
+    object-fit: cover;
+    margin: 0 auto;
+    border-radius: 4px;
+}
+
+.item-card-banner {
+    background: #5f4b8b;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 0;
+}
+
+.success-message {
+    background: #00bfff;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}

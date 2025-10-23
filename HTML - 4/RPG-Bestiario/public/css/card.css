@@ -1,0 +1,40 @@
+.card-rpg {
+    width: 210px;
+    height: 300px;
+    background: radial-gradient(circle at center, #1e1e2f 0%, #0d0d15 100%);
+    border: 4px solid #d6d0c7;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0,0,0,0.8);
+    text-align: center;
+    color: white;
+    font-family: 'Georgia', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-rpg .card-name {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.card-rpg .card-image {
+    max-height: 130px;
+    object-fit: cover;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.card-rpg .card-type-banner {
+    background: #5f4b8b;
+    color: white;
+    padding: 5px 0;
+    font-weight: bold;
+    font-size: 14px;
+    position: relative;
+    bottom: 0;
+}
